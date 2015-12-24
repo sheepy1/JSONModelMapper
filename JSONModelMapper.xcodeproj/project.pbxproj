@@ -81,11 +81,11 @@
 		20762AF61C2BC1740008A00D /* JSONModelMapper */ = {
 			isa = PBXGroup;
 			children = (
-				201D19021C2BCD9900947932 /* Support */,
-				201D19011C2BCD7900947932 /* View */,
-				20762B111C2BC5010008A00D /* Model */,
 				20762B101C2BC4DD0008A00D /* Controller */,
+				20762B111C2BC5010008A00D /* Model */,
+				201D19011C2BCD7900947932 /* View */,
 				20762B0D1C2BC2D80008A00D /* LIb */,
+				201D19021C2BCD9900947932 /* Support */,
 			);
 			path = JSONModelMapper;
 			sourceTree = "<group>";

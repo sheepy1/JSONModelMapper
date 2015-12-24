@@ -8,9 +8,9 @@
 
 import Foundation
 
-enum ConvertError: ErrorType {
-    case InvalidJSON(errorMessage: String)
-}
+//enum ConvertError: ErrorType {
+//    case InvalidJSON(errorMessage: String)
+//}
 
 extension NSData {
     func convertToModel<T: NSObject>() -> T? {
