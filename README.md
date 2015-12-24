@@ -1,5 +1,8 @@
 # JSONModelMapper
 
+##Introduction
+[动手写个 JSON-Model Mapping 库]("http://www.jianshu.com/p/72aafbd39fa7")
+
 ##Usage
 
 Demo JSON:
