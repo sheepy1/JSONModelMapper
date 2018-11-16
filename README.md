@@ -1,9 +1,9 @@
 # JSONModelMapper
 
-##Introduction
+## Introduction
 [动手写个 JSON-Model Mapping 库](http://www.jianshu.com/p/72aafbd39fa7)
 
-##Usage
+## Usage
 
 Demo JSON:
 
@@ -23,7 +23,7 @@ Demo JSON:
   "string": "Hello World"
 }
 
-###Define Model
+### Define Model
 
 ```swift
 class JSONModel: NSObject {
@@ -39,7 +39,7 @@ class PersonModel: NSObject {
 }
 ```
 
-###Send request and convert data to optional model
+### Send request and convert data to optional model
 
 ```swfit
 getDataFromUrl(Constant.DemoAPI, method: .GET, parameter: nil) { data, error in
@@ -53,7 +53,7 @@ getDataFromUrl(Constant.DemoAPI, method: .GET, parameter: nil) { data, error in
 }
 ```
 
-###Convert AnyObject to optional model
+### Convert AnyObject to optional model
 
 ```swift
 if let model = jsonModel {
@@ -61,13 +61,13 @@ if let model = jsonModel {
 }
 ```
 
-###Convert model to NSData 
+### Convert model to NSData 
 
 ```swift
 let data = person => NSData.self
 ```
 
-###Convert model to Dictionary
+### Convert model to Dictionary
 
 ```swfit
 let dict = person.convertToDictinary()
